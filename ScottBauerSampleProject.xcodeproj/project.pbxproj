@@ -10,10 +10,15 @@
 		56687E7A28F9BC8800A69665 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56687E7928F9BC8800A69665 /* AppDelegate.swift */; };
 		56687E7C28F9BC8800A69665 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56687E7B28F9BC8800A69665 /* ViewController.swift */; };
 		56687E7E28F9BC8900A69665 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56687E7D28F9BC8900A69665 /* Assets.xcassets */; };
-		56687E8128F9BC8900A69665 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56687E7F28F9BC8900A69665 /* Main.storyboard */; };
 		56687E8C28F9BC8A00A69665 /* ScottBauerSampleProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56687E8B28F9BC8A00A69665 /* ScottBauerSampleProjectTests.swift */; };
 		56687E9628F9BC8A00A69665 /* ScottBauerSampleProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56687E9528F9BC8A00A69665 /* ScottBauerSampleProjectUITests.swift */; };
 		56687E9828F9BC8A00A69665 /* ScottBauerSampleProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56687E9728F9BC8A00A69665 /* ScottBauerSampleProjectUITestsLaunchTests.swift */; };
+		56687EA528F9BCD000A69665 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56687EA428F9BCD000A69665 /* main.swift */; };
+		56687EA728F9BCFB00A69665 /* FolderCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56687EA628F9BCFB00A69665 /* FolderCellView.swift */; };
+		56687EA928F9BD1B00A69665 /* SSplitVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56687EA828F9BD1B00A69665 /* SSplitVC.swift */; };
+		56687EAB28F9BD3400A69665 /* FolderListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56687EAA28F9BD3400A69665 /* FolderListViewController.swift */; };
+		56687EAD28F9BDDD00A69665 /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56687EAC28F9BDDD00A69665 /* Node.swift */; };
+		56687EAF28F9C21B00A69665 /* MiddleTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56687EAE28F9C21B00A69665 /* MiddleTableVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,13 +43,18 @@
 		56687E7928F9BC8800A69665 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		56687E7B28F9BC8800A69665 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		56687E7D28F9BC8900A69665 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		56687E8028F9BC8900A69665 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		56687E8228F9BC8900A69665 /* ScottBauerSampleProject.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ScottBauerSampleProject.entitlements; sourceTree = "<group>"; };
 		56687E8728F9BC8A00A69665 /* ScottBauerSampleProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScottBauerSampleProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		56687E8B28F9BC8A00A69665 /* ScottBauerSampleProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScottBauerSampleProjectTests.swift; sourceTree = "<group>"; };
 		56687E9128F9BC8A00A69665 /* ScottBauerSampleProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScottBauerSampleProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		56687E9528F9BC8A00A69665 /* ScottBauerSampleProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScottBauerSampleProjectUITests.swift; sourceTree = "<group>"; };
 		56687E9728F9BC8A00A69665 /* ScottBauerSampleProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScottBauerSampleProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		56687EA428F9BCD000A69665 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		56687EA628F9BCFB00A69665 /* FolderCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FolderCellView.swift; sourceTree = "<group>"; };
+		56687EA828F9BD1B00A69665 /* SSplitVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSplitVC.swift; sourceTree = "<group>"; };
+		56687EAA28F9BD3400A69665 /* FolderListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FolderListViewController.swift; sourceTree = "<group>"; };
+		56687EAC28F9BDDD00A69665 /* Node.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Node.swift; sourceTree = "<group>"; };
+		56687EAE28F9C21B00A69665 /* MiddleTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiddleTableVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,9 +106,14 @@
 			isa = PBXGroup;
 			children = (
 				56687E7928F9BC8800A69665 /* AppDelegate.swift */,
+				56687EA628F9BCFB00A69665 /* FolderCellView.swift */,
+				56687EA828F9BD1B00A69665 /* SSplitVC.swift */,
+				56687EAE28F9C21B00A69665 /* MiddleTableVC.swift */,
+				56687EAA28F9BD3400A69665 /* FolderListViewController.swift */,
+				56687EAC28F9BDDD00A69665 /* Node.swift */,
+				56687EA428F9BCD000A69665 /* main.swift */,
 				56687E7B28F9BC8800A69665 /* ViewController.swift */,
 				56687E7D28F9BC8900A69665 /* Assets.xcassets */,
-				56687E7F28F9BC8900A69665 /* Main.storyboard */,
 				56687E8228F9BC8900A69665 /* ScottBauerSampleProject.entitlements */,
 			);
 			path = ScottBauerSampleProject;
@@ -226,7 +241,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				56687E7E28F9BC8900A69665 /* Assets.xcassets in Resources */,
-				56687E8128F9BC8900A69665 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,8 +265,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56687EAB28F9BD3400A69665 /* FolderListViewController.swift in Sources */,
+				56687EA928F9BD1B00A69665 /* SSplitVC.swift in Sources */,
 				56687E7C28F9BC8800A69665 /* ViewController.swift in Sources */,
 				56687E7A28F9BC8800A69665 /* AppDelegate.swift in Sources */,
+				56687EA728F9BCFB00A69665 /* FolderCellView.swift in Sources */,
+				56687EA528F9BCD000A69665 /* main.swift in Sources */,
+				56687EAF28F9C21B00A69665 /* MiddleTableVC.swift in Sources */,
+				56687EAD28F9BDDD00A69665 /* Node.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,17 +307,6 @@
 			targetProxy = 56687E9228F9BC8A00A69665 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		56687E7F28F9BC8900A69665 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				56687E8028F9BC8900A69665 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		56687E9928F9BC8A00A69665 /* Debug */ = {
@@ -426,7 +435,6 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -453,7 +461,6 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
